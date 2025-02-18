@@ -1,10 +1,5 @@
 i = 0;
-/*while(true) {
+while(true) {
   i++
- document.getElementById("hello").innerHTML += i + ".pogi ako" + "<br>";
+ document.getElementById("hello").innerHTML += i + ".I said dont open" + "<br>";
 }
-*/
-setInterval(() => {
-  i++;
-  document.getElementById("hello").innerHTML += i + ".pogi ako" + "<br>";
-}, 1000);
